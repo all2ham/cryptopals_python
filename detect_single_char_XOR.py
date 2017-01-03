@@ -2,7 +2,7 @@ import os
 import crypto
 
 
-f = open(os.path.dirname(__file__) + '../ch4.txt')
+f = open(os.path.dirname(__file__) + 'ch4.txt')
 found_solns = []
 for i, x in enumerate(f):
     bestx = crypto.break_single_byte_cypher(x.rstrip('\n'))

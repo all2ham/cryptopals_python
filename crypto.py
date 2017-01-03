@@ -122,8 +122,8 @@ def hamming_distance(s1,s2):
     return hd
 
 
-
-
+def pkcs7_pad(block,l):
+    return '{0:{1}<{len}}'.format(block,'\x04',len = l)
 
 
 if __name__ == "__main__":

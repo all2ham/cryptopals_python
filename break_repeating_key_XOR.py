@@ -17,7 +17,7 @@ key_guess_range = [2,40]
 
 # crypt = crypto.base64_to_hex(crypt)
 
-crypt = base64.b64decode(open(os.path.dirname(__file__) + '../ch6.txt', 'r').read())
+crypt = base64.b64decode(open(os.path.dirname(__file__) + 'ch6.txt', 'r').read())
 
 
 # finding most probable size of key
